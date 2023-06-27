@@ -8,7 +8,7 @@ public class revNum {
     }
 
     // by using helper function
-    private static int rev(int n) {
+    public static int rev(int n) {
 //        if (n==0) return;
 //        ans = (ans * 10) + (n%10);
 //        rev(n/10);

@@ -1,3 +1,4 @@
+package arrays;
 //121. Best Time to Buy and Sell Stock
 //        Easy
 //        You are given an array prices where prices[i] is the price of a given stock on the ith day.
@@ -16,10 +17,9 @@
 //        Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
 
 
-package arrays;
 
 public class buyNsellStock {
-        public int maxProfit(int[] prices) {
+        public static int maxProfit(int[] prices) {
             int minPrice = Integer.MAX_VALUE;
             int maxProfit = 0;
             for (int i = 0; i<prices.length; i++)
@@ -29,4 +29,9 @@ public class buyNsellStock {
             }
             return maxProfit;
         }
+
+    public static void main(String[] args) {
+        int[] prices = {2,3,9,2,5,12,5};
+        System.out.println(maxProfit(prices));
+    }
 }

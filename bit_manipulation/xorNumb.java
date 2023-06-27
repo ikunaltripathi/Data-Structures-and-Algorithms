@@ -1,6 +1,6 @@
 package bit_manipulation;
 
-public class xorbwNum {
+public class xorNumb {
     public static void main(String[] args) {
         int a = 3, b = 9;
         System.out.println(res(b)^res(a-1));
