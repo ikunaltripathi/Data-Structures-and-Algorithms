@@ -16,7 +16,6 @@ public class searchInRotatedArr {
             else if (mid>start && arr[mid-1] > arr[mid]) return mid-1;
             else if (arr[mid] == arr[start] && arr[mid] == arr[end])
             {
-
                 if (arr[start]>arr[start+1]) return start;
                 start++;
                 if (arr[end-1]>arr[end]) return end-1;
